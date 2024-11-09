@@ -1,4 +1,5 @@
 import Head from "next/head";
+import { ReactNode } from "react";
 
 export interface Props {
   title: string;
@@ -54,6 +55,7 @@ export interface Props {
     twitterCreator?: string;
     twitterImage?: string;
   };
+  children?: ReactNode;
 }
 
 export const SEO = (props: Props) => {
@@ -67,6 +69,7 @@ export const SEO = (props: Props) => {
     siteName = "Shomotsu",
     icon = "/favicon.ico",
     twitter,
+    children
   } = props;
 
   return (
@@ -113,6 +116,7 @@ export const SEO = (props: Props) => {
 
       <link rel="icon" href={icon} />
       {canonical && <link rel="canonical" href={canonical} />}
+      {children}
     </Head>
   );
 };
