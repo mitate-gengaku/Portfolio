@@ -1,8 +1,7 @@
 import React from "react";
 
-import { CommandBlock } from "../layout/command/block";
-
 import { List } from "@/components/display/list";
+import { CommandBlock } from "@/components/layout/command/block";
 import { AVAILABLE_COMMAND_LIST } from "@/config/available-command-list";
 
 interface Props {

@@ -2,9 +2,8 @@ import React from "react";
 import Markdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 
-import { CommandBlock } from "../layout/command/block";
-import { NeedTargetCommandBlock } from "../layout/command/need-target";
-
+import { CommandBlock } from "@/components/layout/command/block";
+import { NeedTargetCommandBlock } from "@/components/layout/command/need-target";
 import { UnknownCommandOption } from "@/components/layout/command/unknown-options";
 import { COMMAND_MANUAL_LIST } from "@/config/manual-list";
 import { ICommand } from "@/types/interface/command";

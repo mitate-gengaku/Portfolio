@@ -46,9 +46,9 @@ const Home = (props: Props) => {
             twitterSite: "@mitate_gengaku",
             twitterCreator: "@mitate_gengaku",
           }}
-          >
-          <meta 
-            name="copyright" 
+        >
+          <meta
+            name="copyright"
             content="The Ultimate Oldschool PC Font Pack (https://int10h.org/oldschool-pc-fonts/) Copyright (c) 2016-2023 VileR, Licensed under Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"
           />
         </SEO>
@@ -65,9 +65,10 @@ const Home = (props: Props) => {
             twitterCard: "summary_large_image",
             twitterSite: "@mitate_gengaku",
             twitterCreator: "@mitate_gengaku",
-          }}>
-          <meta 
-            name="copyright" 
+          }}
+        >
+          <meta
+            name="copyright"
             content="The Ultimate Oldschool PC Font Pack (https://int10h.org/oldschool-pc-fonts/) Copyright (c) 2016-2023 VileR, Licensed under Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"
           />
         </SEO>
@@ -84,9 +85,10 @@ const Home = (props: Props) => {
           twitterCard: "summary_large_image",
           twitterSite: "@mitate_gengaku",
           twitterCreator: "@mitate_gengaku",
-        }}>
-        <meta 
-          name="copyright" 
+        }}
+      >
+        <meta
+          name="copyright"
           content="The Ultimate Oldschool PC Font Pack (https://int10h.org/oldschool-pc-fonts/) Copyright (c) 2016-2023 VileR, Licensed under Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"
         />
       </SEO>

@@ -1,4 +1,4 @@
-import { CommandBlock } from "./block";
+import { CommandBlock } from "@/components/layout/command/block";
 
 interface Props {
   command: string;

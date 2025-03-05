@@ -9,4 +9,4 @@ services:
     tty: true
     stdin_open: true
     volumes:
-      - ./src:/home/node/terminal
+      - ./src:/home/node/portfolio

@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 .hide-boot-message {
   animation: hide 2s forwards;
 }

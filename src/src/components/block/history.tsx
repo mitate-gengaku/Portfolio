@@ -1,8 +1,5 @@
 import React from "react";
 
-import { ClearCommand } from "../command/clear";
-import { CommandBlock } from "../layout/command/block";
-
 import { CertificationsListBlock } from "@/components/block/certification";
 import { ConfigBlock } from "@/components/block/config";
 import { FontCreditBlock } from "@/components/block/font";
@@ -14,6 +11,8 @@ import { ShutdownMessageBlock } from "@/components/block/shutdown";
 import { SocialLinkBlock } from "@/components/block/social";
 import { WelcomeBlock } from "@/components/block/welcome";
 import { WhoAmIBlock } from "@/components/block/whoami";
+import { ClearCommand } from "@/components/command/clear";
+import { CommandBlock } from "@/components/layout/command/block";
 import { CommandNotFound } from "@/components/layout/command/not-found";
 import { AVAILABLE_COMMAND_LIST } from "@/config/available-command-list";
 import { ICommand } from "@/types/interface/command";
