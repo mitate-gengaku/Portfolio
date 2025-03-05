@@ -1,7 +1,6 @@
 import React from "react";
 
-import { CommandBlock } from "../layout/command/block";
-
+import { CommandBlock } from "@/components/layout/command/block";
 import { Switch } from "@/components/ui/switch";
 import { useConfig } from "@/hooks/use-config";
 import { ICommand } from "@/types/interface/command";

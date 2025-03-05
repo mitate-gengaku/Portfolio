@@ -69,7 +69,7 @@ export const SEO = (props: Props) => {
     siteName = "Shomotsu",
     icon = "/favicon.ico",
     twitter,
-    children
+    children,
   } = props;
 
   return (

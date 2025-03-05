@@ -5,8 +5,8 @@ USER root
 RUN npm i -g npm@latest vercel@latest npm-check-updates
 RUN apt-get update && apt-get -y install vim git
 
-COPY ./src /home/node/terminal
-RUN chown -R node:node /home/node/terminal
+COPY ./src /home/node/portfolio
+RUN chown -R node:node /home/node/portfolio
 
 USER node
-WORKDIR /home/node/terminal
+WORKDIR /home/node/portfolio

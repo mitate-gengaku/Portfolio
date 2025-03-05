@@ -1,7 +1,6 @@
 import React from "react";
 
-import { CommandBlock } from "../layout/command/block";
-
+import { CommandBlock } from "@/components/layout/command/block";
 import { WHOAMI_MESSAGE } from "@/config/whoami";
 
 interface Props {

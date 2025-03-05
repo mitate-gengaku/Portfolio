@@ -1,5 +1,4 @@
-import { TypeWriter } from "../display/typewriter";
-
+import { TypeWriter } from "@/components/display/typewriter";
 import { TYPE_TEXT } from "@/config/type";
 
 export const EndBlock = () => (

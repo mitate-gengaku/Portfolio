@@ -5,7 +5,6 @@ import remarkGfm from "remark-gfm";
 
 import { CommandBlock } from "@/components/layout/command/block";
 import { WELCOME_MESSAGE } from "@/config/welcome-message";
-import { cn } from "@/utils/cs";
 
 const WelcomeBlockAsciiMessage = () => (
   <div className="">
@@ -30,7 +29,6 @@ const WelcomeBlockAsciiMessage = () => (
 const WelcomeBlockMessage = () => (
   <div className="">
     <Markdown
-      className={cn("text-sm")}
       components={{
         a: (props) => (
           <a {...props} className={"hover:bg-green-500 hover:text-[#222225]"} />
