@@ -1,5 +1,4 @@
 import { useAtomValue, useSetAtom } from "jotai";
-import React from "react";
 
 import { historyAtom } from "@/store/history";
 import { welcomeAtom } from "@/store/welcome";
@@ -16,8 +15,9 @@ export const ClearCommand = () => {
         options: "",
       },
     ]);
+    return;
   } else {
     setHistory([]);
+    return;
   }
-  return <></>;
 };

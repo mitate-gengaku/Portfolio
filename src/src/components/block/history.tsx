@@ -22,7 +22,10 @@ const CommandList: ICommandList = {
   certification: (command) => {
     return <CertificationsListBlock command={command["command"]} />;
   },
-  clear: ClearCommand,
+  clear: () => {
+    ClearCommand();
+    return <></>;
+  },
   config: (command) => {
     return <ConfigBlock command={command} />;
   },
