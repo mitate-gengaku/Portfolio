@@ -16,7 +16,7 @@ export const ThemeProvider = (props: React.ComponentProps<"div">) => (
     {...props}
     className={cn(
       props.className,
-      "min-w-screen max-w-screen min-h-screen bg-[#222225] text-[#EEEEEC] overflow-x-hidden select-none",
+      "min-w-screen max-w-screen h-screen min-h-screen bg-[#222225] text-[#EEEEEC] overflow-x-hidden select-none",
       IBMVGA.className,
     )}
   />
